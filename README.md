@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+4/5/2020
 
-### Project Title
-Replace the Project Title
+### Project Title 
+Github Project (Udacity nano degree for data science)
 
 ### Description
-Describe what your project is about and what it does
+restore the change in the git reposotory 
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html
