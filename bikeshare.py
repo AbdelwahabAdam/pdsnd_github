@@ -3,11 +3,13 @@ import pandas as pd
 import numpy as np
 import statistics as st
 
-#####loading the data
+
+###loading data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-#####processing the data
+
+###choose the right data function
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -82,7 +84,7 @@ def load_data(city, month, day):
 
     return df
 
-
+### git the time from the table 
 def time_stats(df,month,day):
     """Displays statistics on the most frequent times of travel."""
 
@@ -130,7 +132,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+### get the trip duration
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
