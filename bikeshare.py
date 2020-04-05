@@ -50,7 +50,7 @@ def get_filters():
     day = day.lower()
     return city, month, day
 
-
+////load the data for the choosen city
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
