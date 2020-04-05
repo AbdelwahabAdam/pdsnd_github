@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 import statistics as st
 
-
+#####loading the data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#####processing the data
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -203,7 +203,7 @@ def see_data(df):
         else :
             break
     
-    
+  
 def main():
     while True:
         city, month, day = get_filters()
@@ -218,6 +218,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
+### main program
 if __name__ == "__main__":
 	main()
